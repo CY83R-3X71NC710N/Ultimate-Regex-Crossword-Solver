@@ -1,6 +1,12 @@
 #!/bin/bash
 
-(python3 -c "import time; import sys; def rainbow_text(text): rainbow = ['\033[31m', '\033[33m', '\033[32m', '\033[36m', '\033[34m', '\033[35m']; for color in rainbow: sys.stdout.write(f'{color}{text}\033[0m\r'); sys.stdout.flush(); time.sleep(0.1); start_time = time.time(); while time.time() - start_time < 5: rainbow_text('Gavin Klibowitz')") &
+colors=("\033[31m" "\033[33m" "\033[32m" "\033[36m" "\033[34m" "\033[35m")
+text="Gavin Klibowitz"
+
+for color in "${colors[@]}"; do
+  echo -en "${color}${text}\033[0m\r"
+  sleep 0.1
+done
 
 options=(
     "MIT Mystery Hunt Challenge Solver rated the hardest Regex Crossword Challenge to solve in the world"
