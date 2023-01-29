@@ -1,6 +1,6 @@
 # Codename: Red Robin
 
-This is one of the most powerful regex crossword solvers in my opinion.
+This is one of the most powerful/aggressive regex crossword solvers in my opinion.
 
 # How to run?:
 ```
