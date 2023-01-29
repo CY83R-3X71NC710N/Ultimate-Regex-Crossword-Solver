@@ -3,9 +3,16 @@
 colors=("\033[31m" "\033[33m" "\033[32m" "\033[36m" "\033[34m" "\033[35m")
 text="Gavin Klibowitz"
 
-for color in "${colors[@]}"; do
-  echo -en "${color}${text}\033[0m\r"
-  sleep 0.1
+for i in $(seq 1 5); do
+  for color in "${colors[@]}"; do
+    clear
+    for j in $(seq 1 ${#text}); do
+      char=${text:j-1:1}
+      echo -en "${color}${char}\033[0m"
+      sleep 0.1
+    done
+    sleep 0.5
+  done
 done
 
 options=(
