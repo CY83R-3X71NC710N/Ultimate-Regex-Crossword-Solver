@@ -23,11 +23,15 @@ select opt in "${options[@]}"; do
         "Option 2")
             echo "You selected to download the largest directory of solutions for the regex crossword challenges (cat the solution)"
             git clone https://github.com/deepaksood619/RegexCrossword.git
+            cd RegexCrossword
+            ls
             break
             ;;
         "Option 3")
             echo "You opted to download a custom regex solver that can solve pretty much any challenge if you modify the source code to do so"
             git clone https://github.com/blukat29/regex-crossword-solver.git
+            cd regex-crossword-solver
+            ls
             break
             ;;
         "Quit")
