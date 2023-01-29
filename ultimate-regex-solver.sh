@@ -9,13 +9,13 @@ for ((i=0;i<${#text};i++)); do
   color=${colors[$((i%${#colors[@]}))]}
   explosion=${explosions[$((i%${#explosions[@]}))]}
   echo -en "${color}${text:$i:1} ${explosion}\033[0m"
-  sleep 0.1
+  sleep 0.5
 done
 echo
 
 options=(
     "MIT Mystery Hunt Challenge Solver rated the hardest Regex Crossword Challenge to solve in the world"
-    "Download Directory Of Solutions All Levels make sure to cat the file use this if you don't have much time or don't know programming"
+    "Download Directory Of Solutions All Levels make sure to grep the file use this if you don't have much time or don't know programming"
     "Download custom regex solver that can be modified by editing the source code to solve even a challenge with backlinks, this converts the problem into a SMT problem and then Z3PY to solve it use this if you have a lot of time and know programming to create your own custom regex solver this is also perfect for solving rectangular challenges"
     "Quit"
 )
@@ -32,11 +32,12 @@ select opt in "${options[@]}"; do
             break
             ;;
         "Download Directory Of Solutions All Levels make sure to cat the file use this if you don't have much time or don't know programming")
-            echo "You selected to download the largest directory of solutions for the regex crossword challenges make sure to cat the solution"
+            echo "You selected to download the largest directory of solutions for the regex crossword challenges make sure to grep the solution to find what you are looking for faster"
             sudo rm -rf RegexCrossword
             git clone https://github.com/deepaksood619/RegexCrossword.git
             cd RegexCrossword
             ls
+            cat README.md
             break
             ;;
         "Download custom regex solver that can be modified by editing the source code to solve even a challenge with backlinks, this converts the problem into a SMT problem and then Z3PY to solve it use this if you have a lot of time and know programming to create your own custom regex solver this is also perfect for solving rectangular challenges")
