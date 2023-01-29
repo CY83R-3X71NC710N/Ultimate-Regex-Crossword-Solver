@@ -26,7 +26,7 @@ select opt in "${options[@]}"; do
             break
             ;;
         "Option 3")
-            echo ""
+            echo "You opted to download a custom regex solver that can solve any challenge if you modify the source code to do so"
             break
             ;;
         "Quit")
