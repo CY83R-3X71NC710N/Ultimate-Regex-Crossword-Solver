@@ -31,7 +31,7 @@ select opt in "${options[@]}"; do
             python2 main.py
             break
             ;;
-        "Download Directory Of Solutions All Levels make sure to cat the file use this if you don't have much time or don't know programming")
+        "Download Directory Of Solutions All Levels make sure to grep the file use this if you don't have much time or don't know programming")
             echo "You selected to download the largest directory of solutions for the regex crossword challenges make sure to grep the solution to find what you are looking for faster"
             sudo rm -rf RegexCrossword
             git clone https://github.com/deepaksood619/RegexCrossword.git
