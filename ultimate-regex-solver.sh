@@ -52,3 +52,8 @@ select opt in "${options[@]}"; do
             echo "Goodbye!"
             break
             ;;
+        *)
+            echo "Invalid option, try again"
+            ;;
+    esac
+done
