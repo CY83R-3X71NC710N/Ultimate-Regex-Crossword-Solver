@@ -9,7 +9,7 @@ for ((i=0;i<${#text};i++)); do
   color=${colors[$((i%${#colors[@]}))]}
   explosion=${explosions[$((i%${#explosions[@]}))]}
   echo -en "${color}${text:$i:1} ${explosion}\033[0m"
-  sleep 0.5
+  sleep 0.4
 done
 echo
 
