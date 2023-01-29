@@ -2,7 +2,7 @@
 # Presented on replit
 # Define options
 options=(
-    "MIT Mystery Hunt Challenge Solver (Rated the hardest Regex Crossword Challenge to solve in the world\"
+    "MIT Mystery Hunt Challenge Solver (Rated the hardest Regex Crossword Challenge to solve in the world"
     "Download Directory Of Solutions All Levels (cat the file) (use this if you don't have much time or don't know programming)"
     "Download custom regex solver that can be modified by editing the source code to solve a challenge with backlinks (use this if you have a lot of time and know programming to create your own custom regex solver)"
     "Quit"
