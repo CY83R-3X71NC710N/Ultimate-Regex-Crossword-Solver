@@ -1,5 +1,11 @@
 # Codename: Red Robin
 
+# How to run?:
+git clone https://github.com/CY83R-3X71NC710N/Ultimate-Regex-Crossword-Solver.git
+cd Ultimate-Regex-Crossword-Solver.git 
+chmod +x Ultimate-Regex-Crossword-Solver
+./Ultimate-Regex-Crossword-Solver
+
 Thanks To:
 ```
 https://replit.com/
