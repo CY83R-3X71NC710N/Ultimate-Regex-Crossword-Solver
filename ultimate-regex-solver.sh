@@ -22,7 +22,7 @@ select opt in "${options[@]}"; do
             break
             ;;
         "Option 2")
-            echo "You selected to download the largest directory of solutions for the regex crossword challenges (cat the solution)"
+            echo "You selected to download the largest directory of solutions for the regex crossword challenges make sure to cat the solution"
             git clone https://github.com/deepaksood619/RegexCrossword.git
             cd RegexCrossword
             ls
