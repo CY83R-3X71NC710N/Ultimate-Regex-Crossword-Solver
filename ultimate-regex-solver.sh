@@ -3,9 +3,9 @@
 echo "Welcome to the most Ultimate-Regex-Crossword-Solver, most of the projects and solutions in this code actually infer the solution rather then have it encoded which is what makes it fascinating.
 # Define options
 options=(
-    "MIT Mystery Hunt Challenge Solver (Rated the hardest Regex Crossword Challenge to solve in the world)"
-    "Download Directory Of Solutions All Levels (cat the file) (use this if you don't have much time or don't know programming)"
-    "Download custom regex solver that can be modified by editing the source code to solve even a challenge with backlinks, this converts the problem into a SMT problem and then Z3PY to solve it (use this if you have a lot of time and know programming to create your own custom regex solver this is also perfect for solving rectangular challenges)"
+    "MIT Mystery Hunt Challenge Solver rated the hardest Regex Crossword Challenge to solve in the world"
+    "Download Directory Of Solutions All Levels make sure to cat the file use this if you don't have much time or don't know programming"
+    "Download custom regex solver that can be modified by editing the source code to solve even a challenge with backlinks, this converts the problem into a SMT problem and then Z3PY to solve it use this if you have a lot of time and know programming to create your own custom regex solver this is also perfect for solving rectangular challenges"
     "Quit"
 )
 
