@@ -1,5 +1,19 @@
 #!/bin/bash
 # Presented on replit
+import time
+import sys
+
+def rainbow_text(text):
+    rainbow = ["\033[31m", "\033[33m", "\033[32m", "\033[36m", "\033[34m", "\033[35m"]
+    for color in rainbow:
+        sys.stdout.write(f"{color}{text}\033[0m\r")
+        sys.stdout.flush()
+        time.sleep(0.1)
+
+start_time = time.time()
+while time.time() - start_time < 5:
+    rainbow_text("Gavin Klibowitz")
+
 echo "Welcome to the most Ultimate-Regex-Crossword-Solver, most of the projects and solutions in this code actually infer the solution rather then have it encoded which is what makes it fascinating.
 # Define options
 options=(
