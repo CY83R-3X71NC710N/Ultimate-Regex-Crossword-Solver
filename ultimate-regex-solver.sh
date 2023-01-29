@@ -1,19 +1,17 @@
 #!/bin/bash
 
-colors=("\033[31m" "\033[33m" "\033[32m" "\033[36m" "\033[34m" "\033[35m")
 text="Gavin Klibowitz"
+colors=("\033[31m" "\033[33m" "\033[32m" "\033[36m" "\033[34m" "\033[35m")
 
-for i in $(seq 1 10); do
-  for color in "${colors[@]}"; do
-    for ((j=0; j<${#text}; j++)); do
-      echo -en "${color}${text:$j:1}\033[0m\r"
-      sleep 0.05
-    done
-    sleep 0.5
-  done
-  echo -e "\033[31m!!!\033[0m"
-  sleep 1
+explosions=("💥" "💥" "🔥" "💥" "💣" "💥" "💥" "🔥")
+
+for ((i=0;i<${#text};i++)); do
+  color=${colors[$((i%${#colors[@]}))]}
+  explosion=${explosions[$((i%${#explosions[@]}))]}
+  echo -en "${color}${text:$i:1} ${explosion}\033[0m"
+  sleep 0.1
 done
+echo
 
 options=(
     "MIT Mystery Hunt Challenge Solver rated the hardest Regex Crossword Challenge to solve in the world"
