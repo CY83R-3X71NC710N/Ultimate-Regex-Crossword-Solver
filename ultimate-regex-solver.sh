@@ -15,7 +15,7 @@ select opt in "${options[@]}"; do
         "Option 1")
             echo "You selected Solve MIT Mystery Hunt Regex Challenge"
             # Solves the 2013 MIT Mystery Hunt, by Dan Gulotta, Palmer Mebane Regex Crossword https://regexcrossword.com/playerpuzzles/8cbea27f-c4c5-4d11-a509-6a622ba01107
-            git clone https://github.com/dneiter/regex-crossword
+            git clone https://github.com/dneiter/regex-crossword.git
             cd regex-crossword
             python2 main.py
             break
@@ -26,7 +26,8 @@ select opt in "${options[@]}"; do
             break
             ;;
         "Option 3")
-            echo "You opted to download a custom regex solver that can solve any challenge if you modify the source code to do so"
+            echo "You opted to download a custom regex solver that can solve pretty much any challenge if you modify the source code to do so"
+            git clone https://github.com/blukat29/regex-crossword-solver.git
             break
             ;;
         "Quit")
