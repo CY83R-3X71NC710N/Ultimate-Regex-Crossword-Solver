@@ -6,7 +6,7 @@ This is one of the most powerful regex crossword solvers in my opinion.
 ```
 git clone https://github.com/CY83R-3X71NC710N/Ultimate-Regex-Crossword-Solver.git
 cd Ultimate-Regex-Crossword-Solver
-chmod +x ultimate-regex-solver.sh
+sudo chmod +x ultimate-regex-solver.sh
 ./ultimate-regex-solver.sh
 ```
 Thanks To:
