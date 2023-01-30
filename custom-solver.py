@@ -1,5 +1,6 @@
 # pip install ply z3-solver
 # https://regexcrossword.com/playerpuzzles/595e8c8e86584
+# https://www.bbc.co.uk/programmes/articles/5LCB3rN2dWLqsmGMy5KYtBf/puzzle-for-today
 from crossword import solve_crossword
 
 rows = [
