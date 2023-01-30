@@ -38,3 +38,6 @@ cols = [
     r'(?!.*\w)(?=^.*\$\^.*$)^\$.*.:.*.\^$',
     r'(?!.*#\$)[$$$ I AM RICH! $$$]*\W*`',
 
+answer = solve_crossword(rows, cols)
+for line in answer:
+    print ('  '.join(line))
