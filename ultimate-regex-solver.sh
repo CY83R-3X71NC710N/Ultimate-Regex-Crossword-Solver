@@ -42,6 +42,7 @@ select opt in "${options[@]}"; do
             ;;
         "Download custom regex solver that can be modified by editing the source code to solve even a challenge with backlinks, this converts the problem into a SMT problem and then Z3PY to solve it use this if you have a lot of time and know programming to create your own custom regex solver this is also perfect for solving rectangular challenges")
             echo "You opted to download a custom regex solver that can solve pretty much any challenge if you modify the source code to do so"
+            pip install ply z3-solver
             sudo rm -rf regex-crossword-solver
             git clone https://github.com/blukat29/regex-crossword-solver.git
             cd regex-crossword-solver
