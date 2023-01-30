@@ -17,6 +17,7 @@ echo
 
 options=(
     "MIT Mystery Hunt Challenge Solver rated the hardest Regex Crossword Challenge to solve in the world"
+    "Solve the BBC Radio 4 Regex Puzzle, this is a hard level difficulty challenge"
     "Download Directory Of Solutions All Levels make sure to grep the file use this if you don't have much time or don't know programming"
     "Download custom regex solver that can be modified by editing the source code to solve even a challenge with backlinks, this converts the problem into a SMT problem and then Z3PY to solve it use this if you have a lot of time and know programming to create your own custom regex solver this is also perfect for solving rectangular challenges"
     "Quit"
@@ -33,7 +34,7 @@ select opt in "${options[@]}"; do
             python2 main.py
             break
             ;;
-        Solve the BBC Radio 4 Regex Puzzle, this is a hard level difficulty challenge")
+        "Solve the BBC Radio 4 Regex Puzzle, this is a hard level difficulty challenge")
             echo "You opted to download a custom regex solver that can solve pretty much any challenge if you modify the source code to do so"
             sudo pip install ply z3-solver
             sudo python3 custom-solver.py
