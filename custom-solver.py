@@ -1,3 +1,4 @@
+# pip install ply z3-solver
 from crossword import solve_crossword
 
 rows = [
