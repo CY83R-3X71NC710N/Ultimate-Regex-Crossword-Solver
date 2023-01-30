@@ -23,7 +23,7 @@ options=(
     "Quit"
 )
 
-PS3='Please choose an option: '
+PS3='Please choose an option:
 select opt in "${options[@]}"; do
     case $opt in
         "MIT Mystery Hunt Challenge Solver rated the hardest Regex Crossword Challenge to solve in the world")
