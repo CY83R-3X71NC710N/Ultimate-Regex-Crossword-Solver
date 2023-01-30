@@ -2,6 +2,8 @@
 
 # Presented on replit, remove sudo statements if needed
 
+# If you want to solve official challenges you can either review notes or modify the custom solver
+
 text="Gavin Klibowitz"
 colors=("\033[31m" "\033[33m" "\033[32m" "\033[36m" "\033[34m" "\033[35m")
 
