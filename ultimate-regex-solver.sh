@@ -35,7 +35,7 @@ select opt in "${options[@]}"; do
             break
             ;;
         "Solve the BBC Radio 4 Regex Puzzle, this is a hard level difficulty challenge")
-            echo "You opted to download a custom regex solver that can solve pretty much any challenge if you modify the source code to do so"
+            echo "You have selected to solve the BBC Radio 4 Regex Puzzle"
             sudo pip install ply z3-solver
             sudo python3 custom-solver.py
             ls
