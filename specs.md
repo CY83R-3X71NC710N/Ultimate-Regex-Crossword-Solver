@@ -1,4 +1,4 @@
-# Specfications about the regex rectangle we are trying to solve
+# Specifications about the regex rectangle we are trying to solve
 
 https://regexcrossword.com/playerpuzzles/595e8c8e86584
 ```
