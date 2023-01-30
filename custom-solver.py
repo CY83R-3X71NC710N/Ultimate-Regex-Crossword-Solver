@@ -1,4 +1,5 @@
 # pip install ply z3-solver
+# https://regexcrossword.com/playerpuzzles/638abba5-5cfa-430c-b26a-33d1f4f42dab
 from crossword import solve_crossword
 
 rows = [
