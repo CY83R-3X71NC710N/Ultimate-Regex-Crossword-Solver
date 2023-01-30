@@ -28,4 +28,3 @@ N(XN|ZB|CA|FS){2}
 [XHDJ]R[MZVIJ]EC	
 X?W(\sE|OS|PE){2}	
 [VIMZJ]{3}\-\s
-
