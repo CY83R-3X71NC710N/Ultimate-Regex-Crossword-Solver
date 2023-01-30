@@ -1,28 +1,31 @@
 # Specfications about the regex rectangle we are trying to solve
 
-https://regexcrossword.com/playerpuzzles/638abba5-5cfa-430c-b26a-33d1f4f42dab
+https://regexcrossword.com/playerpuzzles/595e8c8e86584
 ```
 Area:
-9x9=81
+5x14=70
 
-Bottom Side:
-\.(.)(.)\2[.-]+\1{3}	
-([-.]+).\1\s+-+	
-.(.)--\1\.+-	
-\s([\s-]\.)*-{1,2}	
-[.\s]+-(\.[^.]){1,2}	
-\s\.+-(\s\.)+	
-.(([^.])\2)(.)\s+-\3\1	
--.\.\s(-?\.)+	
-\.\s+\.-\.\s+-\.
+Left Side:
+[^XZVCHFJLQM]+	
+[^PZVJG]{4}(.)[EFUG]{6}\1[^\sPZVJI]{2}	
+[^\sPQFB]{7}[^MGVAJNZ\s]+[^MVZJ]	
+N[OYSRU]{5}[NICE]{6}\s\-	
+.A[A\sDL]{4}O[AECLV\s]+
 
-Right Side:
-(?!.*\t)(.).(\1).(\2).--.	
-(?!.*\t)\s\.\s+-\.+-\s+	
-(?!.*\t).?(-\.|\s\.)+[^-.]	
-(?!.*\t)(.)(\1)(\2)(.)\.+\4.	
-(?!.*\t)[.\s]+[-\s]+	
-(?!.*\t)-.\.-.+(.)\1	
-(?!.*\t).[^-]+\s[^-]+	
-(?!.*\t)(-\.|\s)+([^\s])\2{2}	
-(?!.*\t)\s+-+\s(\..)+
+
+Bottom Side L to R:
+\sA?(SA|PE|N\s){2}	
+([XYZ])(P|GO|EL)\1.	
+(LS|CA|OS)[L\sP][DO]{2}	
+(U)(T)\2\1[AOB?]	
+(.)\1\1\1\s	
+(FF|BE|QU|OS){2}L	
+ES?F?(OBZ|UCO|PTE)	
+S[MVU]B(TZ|BP|IV)	
+T[GLMV]{2}(E)\1	
+(JK|AE|EN|MG){2}L	
+N(XN|ZB|CA|FS){2}	
+[XHDJ]R[MZVIJ]EC	
+X?W(\sE|OS|PE){2}	
+[VIMZJ]{3}\-\s
+
