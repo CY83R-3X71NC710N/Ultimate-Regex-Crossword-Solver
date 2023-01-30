@@ -31,3 +31,8 @@ cols = [
 answer = solve_crossword(rows, cols)
 for line in answer:
     print ('  '.join(line))
+
+print('Bonus: I have updated this to also solve Beginner Level 1 Beatles, below is the answer:')
+answer = solve_crossword(["HE|LL|O+","[PLEASE]+"], ["[^SPEAK]+","EP|IP|EF"])
+for line in answer:
+    print ('  '.join(line))
