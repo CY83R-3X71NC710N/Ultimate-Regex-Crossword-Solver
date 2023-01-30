@@ -1,7 +1,7 @@
 # Specfications about the regex rectangle we are trying to solve
 
 https://regexcrossword.com/playerpuzzles/585e12a824c43
-
+```
 Area:
 16x10=160
 
@@ -64,3 +64,4 @@ Bottom Side L to R:
 (?!.*\w)(?=.+\+.)(.)+(.)+\1+\2(.)+\2\3(.)+.*\3\4.	
 (?!.*\w)([.])(.)(.)+\2/\3\|\1\2+\+
 (?!.*\w)(.)+(.)(~)\1\2.*\1.*\3..
+```
