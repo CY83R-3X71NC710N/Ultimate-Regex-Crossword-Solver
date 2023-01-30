@@ -40,7 +40,6 @@ select opt in "${options[@]}"; do
             echo "You have selected to solve the BBC Radio 4 Regex Puzzle"
             sudo pip install ply z3-solver
             sudo python3 custom-solver.py
-            ls
             break
             ;;
         "Download Directory Of Solutions All Levels make sure to grep the file use this if you don't have much time or don't know programming")
